@@ -1,0 +1,3 @@
+function perimeter(l, num){
+	
+}
