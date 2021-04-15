@@ -6,3 +6,10 @@ function checkEquals(arr1, arr2) {
   	return false
   }
 }
+
+
+const checkEquals = (arr1, arr2) => arr1.toString() === arr2.toString()
+
+
+
+checkEquals([1, 2], [1, 3])
