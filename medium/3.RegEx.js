@@ -1,0 +1,5 @@
+
+
+const REGEXP = /^$/
+
+REGEXP.test("")
