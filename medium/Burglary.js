@@ -7,6 +7,8 @@ function addName(obj, name, value) {
 
   newObj[name] = value;
 
+  console.log('newObj[name] = value', newObj[name] = value)
+
   const combine = Object.assign(obj, newObj);
 
   return combine;
